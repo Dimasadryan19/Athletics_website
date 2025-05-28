@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletics Website</title>
+
+</head>
+<body>
+
+    <header class="header">
+        <a href = "#" class="logo">Athletics</a>
+
+        <i class='bx bx-menu' id='menu-icon'></i>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="sejarah.html">Sprint</a>
+            <a href="jenis.html">Jenis</a>
+            <a href="teknik.html">Teknik</a>
+            <a href="atlet.html">Atlet</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <section class="atletik" id="atletik">
+        <h2 class="heading">Jenis-Jenis <span>Sprint</span></h2>
+        <div class="atletik-container" id="portofolio1">
+           
+            <div class="atletik-box satu">
+                <img src="img/atlet-1.jpg" alt="">
+                <div class="atletik-layer satu">
+                        <h3> Akani Simbine</h3>
+                        <h4>
+                            Afrika Selatan
+                         </h4>
+                         <p>Akani Simbine terus menunjukkan performa luar biasa di musim 2025. Ia mencatat waktu 9,90 detik dalam lomba 100 meter di Gaborone, Botswana, menjadikannya salah satu sprinter tercepat tahun ini.</p>
+                </div>
+            </div>
+
+            <div class="atletik-box dua">
+                <img src="img/atlet-2.jpg" alt="">
+                <div class="atletik-layer dua">
+                        <h3>Gout Gout </h3>
+                        <h4>
+                            Australia
+                         </h4>
+                         <p>Gout Gout, sprinter muda asal Australia, telah menarik perhatian dunia dengan catatan waktu 10,29 detik di usia 17 tahun. Ia dianggap sebagai penerus Usain Bolt dan telah menandatangani kontrak profesional dengan Adidas.</p>
+                </div>
+            </div>
+
+
+            <div class="atletik-box tiga">
+                <img src="img/atlet-3.jpg" alt="">
+                <div class="atletik-layer tiga">
+                    <h3>Letsile Tebogo </h3>
+                    <h4>
+                        Botswana
+                    </h4>
+                    <p>Letsile Tebogo, juara Olimpiade dari Botswana, dikenal karena kecepatannya di nomor 100m dan 200m. Meskipun mengalami penurunan performa di Diamond League Rabat 2025, ia tetap menjadi salah satu sprinter top dunia. </p>
+                </div>
+            </div>
+
+            <div class="atletik-box empat">
+                <img src="img/atlet-4.jpg" alt="">
+                <div class="atletik-layer tiga">
+                    <h3>Lalu Muhammad Zohri</h3>
+                    <h4>
+                        Indonesia
+                    </h4>
+                    <p>Lalu Muhammad Zohri adalah sprinter Indonesia yang mencatat sejarah dengan meraih emas di Kejuaraan Dunia U20 IAAF 2018. Ia memegang rekor nasional 100m dan 200m, serta dijuluki "manusia tercepat di Asia Tenggara"</p>
+                </div>
+            </div>
+
+            <div class="atletik-box lima">
+                <img src="img/atlet-5.jpg" alt="">
+                <div class="atletik-layer tiga">
+                    <h3>Sapwaturrahman</h3>
+                    <h4>
+                        Indonesia
+                    </h4>
+                    <p>Sapwaturrahman adalah atlet serba bisa yang berkompetisi di nomor 100m dan lompat jauh. Ia telah meraih medali di berbagai kejuaraan Asia dan dikenal karena kecepatannya di lintasan.</p>
+                </div>
+            </div>
+
+            <div class="atletik-box enam">
+                <img src="img/atlet-6.jpg" alt="">
+                <div class="atletik-layer tiga">
+                    <h3>Emilia Nova</h3>
+                    <h4>
+                        Indonesia
+                    </h4>
+                    <p>Emilia Nova adalah sprinter wanita Indonesia yang bersinar di nomor 100m gawang. Ia telah meraih medali di SEA Games dan menjadi andalan Indonesia di kejuaraan internasional.</p>
+                </div>
+            </div>
+        </div>
+          </section>
+
+              <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+       </footer>
+
+       <script>
+        /*=====toggle icon navbar ====*/
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+};
+       </script>
+</body>
+</html>

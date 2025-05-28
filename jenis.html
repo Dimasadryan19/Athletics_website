@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletics Website</title>
+
+</head>
+<body>
+
+    <header class="header">
+        <a href = "#" class="logo">Athletics</a>
+
+        <i class='bx bx-menu' id='menu-icon'></i>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="sejarah.html">Sprint</a>
+            <a href="jenis.html">Jenis</a>
+            <a href="teknik.html">Teknik</a>
+            <a href="atlet.html">Atlet</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <section class="atletik" id="atletik">
+        <h2 class="heading">Jenis-Jenis <span>Sprint</span></h2>
+        <div class="atletik-container" id="portofolio1">
+           
+            <div class="atletik-box satu">
+                <img src="img/jenis-1.jpg" alt="">
+                <div class="atletik-layer satu">
+                        <h3>Lari 100 Meter</h3>
+                        <h4>
+                            Sprint
+                         </h4>
+                </div>
+            </div>
+
+            <div class="atletik-box dua">
+                <img src="img/jenis-2.jpg" alt="">
+                <div class="atletik-layer dua">
+                        <h3>Lari 200 Meter</h3>
+                        <h4>
+                            Sprint
+                         </h4>
+                </div>
+            </div>
+
+
+            <div class="atletik-box tiga">
+                <img src="img/jenis-3.jpg" alt="">
+                <div class="atletik-layer tiga">
+                    <h3>Lari 400 Meter</h3>
+                    <h4>
+                        Sprint
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <p>Lari sprint tidak hanya soal berlari secepat mungkin dari garis start ke garis finis. Di dalam dunia atletik, sprint terbagi ke dalam beberapa jenis lomba dengan jarak dan tantangan yang berbeda-beda. Setiap jenis memiliki karakteristik dan teknik tersendiri yang membuatnya unik dan menantang. Yuk, kenali berbagai jenis lari sprint yang sering dipertandingkan di ajang nasional maupun internasional!</p>
+        <a href="#jenis" class="btn">TELUSURI</a>
+     </section>
+
+ <section class="card" id="jenis">
+        <div class="card-section">
+             <h2>1. Lari 100 Meter</h2>
+            <img src="img/jenis-1.jpg" alt="game">
+            <P> Lari 100 meter adalah nomor sprint paling ikonik dan dikenal luas sebagai ajang untuk menentukan siapa manusia tercepat di dunia. Perlombaan ini dilakukan di lintasan lurus, dengan start yang sangat menentukan hasil akhir. Atlet harus memiliki reaksi cepat terhadap suara pistol start, akselerasi eksplosif, dan teknik lari yang sempurna untuk menjaga kecepatan maksimal hingga garis finis.</P>
+            <p>Karena durasinya sangat singkat—sekitar 9 hingga 11 detik untuk pelari elite—setiap kesalahan kecil, seperti start lambat atau gerakan tubuh yang tidak efisien, dapat menghilangkan peluang untuk menang.</p>
+            <h2>2. Lari 200 Meter</h2>
+            <img src="img/jenis-2.jpg" alt="film">
+            <P> Berbeda dengan 100 meter, lomba 200 meter menambah elemen teknik karena pelari harus menempuh separuh lintasan di bagian melengkung sebelum memasuki lintasan lurus. Tantangan utama adalah menjaga keseimbangan dan kecepatan saat berlari di tikungan sambil mempersiapkan transisi yang mulus ke lintasan lurus.</P>
+            <p>Pelari harus menguasai distribusi tenaga agar tidak terlalu cepat di awal dan kehilangan tenaga di akhir. Nomor ini sering dianggap sebagai kombinasi antara kecepatan murni dan strategi distribusi energi.</p>
+            <h2>3. Lari 400 Meter</h2>
+            <img src="img/jenis-3.jpg" alt="musik">
+            <P>Lari 400 meter sering disebut sebagai nomor “sprint yang terasa seperti lari jarak menengah.” Mengapa? Karena pelari harus menjaga kecepatan tinggi selama satu putaran penuh lintasan stadion, tetapi juga harus cermat dalam mengatur ritme. Terlalu cepat di awal dapat menyebabkan kelelahan ekstrem di 100 meter terakhir, sedangkan terlalu lambat akan menghilangkan peluang bersaing.</P>
+            <p>Nomor ini menuntut stamina luar biasa, teknik efisien, dan kemampuan membaca kondisi tubuh dengan baik. Banyak atlet yang menganggap 400 meter sebagai nomor yang paling menantang secara fisik dan mental.</p>
+        </div>
+</section>
+
+   </section>
+       <!--footer design-->
+       <footer class="footer-sec">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+       </footer>
+
+              <script>
+        /*=====toggle icon navbar ====*/
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+};
+       </script>
+
+</body>
+</html>

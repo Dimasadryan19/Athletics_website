@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletics Website</title>
+
+</head>
+<body>
+
+        <header class="header">
+        <a href = "#" class="logo">Athletics</a>
+
+        <i class='bx bx-menu' id='menu-icon'></i>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="sejarah.html">Sprint</a>
+            <a href="jenis.html">Jenis</a>
+            <a href="teknik.html">Teknik</a>
+            <a href="atlet.html">Atlet</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+           <div class="logo-img">
+            <img src="img/atletik.png" alt="">
+        </div>
+        <div class="home-content">
+            <h3>Hello, Welcome to Athletics Website</h3>
+            <h1><span>Sprint</span> Lari Jarak Pendek</h1>
+            <h3>Speed is Power. Train for Greatness.</span></h3>
+            <p>Athletics Website kali ini membahas topic Sprint atau lari jarak pendek. website ini berisi berbagai informasi seputar cabang olahraga lari jarak pendek. Kamu dapat mengetahui sejarah sprint, teknik dasar, peraturan perlombaan, hingga jenis-jenis nomor lari seperti 100 meter, 200 meter, dan 400 meter. Jelajahi website ini untuk memahami lebih dalam tentang dunia sprint. Klik menu di bawah ini untuk menjelajahi lebih lanjut!</p>
+            <a href="#basketball" class="btn">LET'S GO</a>
+        </div>
+    </section>
+
+    </section>
+       <!--footer design-->
+       <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+       </footer>
+
+              <script>
+        /*=====toggle icon navbar ====*/
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+};
+       </script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletics Website</title>
+
+        <header class="header">
+        <a href = "#" class="logo">Athletics</a>
+
+        <i class='bx bx-menu' id='menu-icon'></i>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="sejarah.html">Sejarah</a>
+            <a href="jenis.html">Jenis</a>
+            <a href="teknik.html">Teknik</a>
+            <a href="atlet.html">Atlet</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    
+     
+     <section class="home" id="about">
+        <div class="home-content">
+            <h3>About</h3>
+            <h1>Athletics Website </h1>
+            <p>Sprint bukan hanya tentang siapa yang paling cepat berlari, tetapi juga mengajarkan pentingnya disiplin, konsistensi latihan, dan kekuatan mental untuk mencapai garis finis dalam waktu sesingkat mungkin. Olahraga ini menuntut kecepatan reaksi, kekuatan otot, serta fokus yang tinggi, yang menjadikannya sangat menarik untuk dipelajari dan dipahami lebih dalam.</p>
+            <p>Berdasarkan minat tersebut, saya membuat website ini dengan tema lari jarak pendek (sprint). Tujuan utama dari website ini adalah untuk memberikan informasi dan edukasi seputar sprint kepada siapa saja yang ingin mengenalnya lebih jauh. Isi dari website ini mencakup berbagai aspek penting seperti pengertian sprint, sejarah perkembangan sprint, jenis-jenis nomor lari, teknik dasar sprint, hingga atlet-atlet sprint terkenal baik dari Indonesia maupun dunia.</p>
+            <p>Dengan adanya website ini, saya berharap dapat menumbuhkan minat masyarakat, khususnya pelajar dan mahasiswa, terhadap cabang atletik sprint. Semoga website ini dapat menjadi sumber informasi yang bermanfaat, menginspirasi semangat olahraga, serta meningkatkan apresiasi terhadap salah satu cabang tertua dan paling menantang dalam dunia atletik.</p>
+        </div>
+    </section>
+
+      <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+       </footer>
+
+       <script>
+        /*=====toggle icon navbar ====*/
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+};
+       </script>
+
+</body>
+</html>
